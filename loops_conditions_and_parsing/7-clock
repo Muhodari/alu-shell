@@ -1,6 +1,5 @@
-
 #!/usr/bin/env bash
-# the script to display time 
+#A script to display time using while loop
 
 hours=0
 while ((hours<=12))
