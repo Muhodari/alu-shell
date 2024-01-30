@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#A script using for loop to display content in current direcoty in ls format where the file is not hidden 
+
+for file in * ;
+do 
+echo "$file" | cut -d "-" -f 2;
+done
