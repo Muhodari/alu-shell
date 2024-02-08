@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script to quit all previous process
+
+pkill -f --signal KILL 7-highlander
